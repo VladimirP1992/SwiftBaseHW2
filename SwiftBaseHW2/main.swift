@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+//Task1: even or not even function
+func isEven(number: Int) -> Bool {
+    return number % 2 == 0
+}
+
+print(isEven(number: 9))
+
 
