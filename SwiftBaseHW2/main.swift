@@ -23,4 +23,10 @@ func isDivisiblebyThree(number: Int) -> Bool {
 
 print("\(number) is divisible by 3 = \(isDivisiblebyThree(number: number))")
 
+//Task3: increasing array
+var array: [Int] = [Int]()
+for value in (0...99) {
+    array.append(value)
+}
 
+print("Array \(array[0])...\(array[array.count-1]) contains \(array.count) elements")
