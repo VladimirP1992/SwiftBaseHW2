@@ -30,3 +30,11 @@ for value in (0...99) {
 }
 
 print("Array \(array[0])...\(array[array.count-1]) contains \(array.count) elements")
+
+//Task 4: Trimmed array
+var trimmedArray: [Int] = [Int]()
+for value in array where !isEven(number: value) && isDivisiblebyThree(number: value) {
+    trimmedArray.append(value)
+}
+
+print(trimmedArray)
